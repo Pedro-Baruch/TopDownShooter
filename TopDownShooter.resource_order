@@ -15,11 +15,13 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"shoot","order":3,"path":"folders/Sprites/shoot.yy",},
+    {"name":"shot","order":3,"path":"folders/Sprites/shot.yy",},
+    {"name":"enemy","order":4,"path":"folders/Sprites/enemy.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"obj_tiro","order":1,"path":"objects/obj_tiro/obj_tiro.yy",},
-    {"name":"spr_shoot_effect","order":1,"path":"sprites/spr_shoot_effect/spr_shoot_effect.yy",},
+    {"name":"obj_shot","order":1,"path":"objects/obj_shot/obj_shot.yy",},
+    {"name":"spr_shot_effect","order":1,"path":"sprites/spr_shot_effect/spr_shot_effect.yy",},
     {"name":"spr_player_shoot","order":1,"path":"sprites/spr_player_shoot/spr_player_shoot.yy",},
+    {"name":"obj_enemy_little","order":2,"path":"objects/obj_enemy_little/obj_enemy_little.yy",},
   ],
 }

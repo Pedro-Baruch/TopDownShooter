@@ -12,7 +12,7 @@ shoot_timer_counter = 0
 shoot_timer = 60 
 
 // Criando método para movimentação
-/// @method Definindo movimentação do player. _player_vel = velocidade do player
+/// @method Definindo movimentação do player, recebe algum valor que define a velocidade do player
 player_movement = function(_player_vel){	
 	// Detectando as teclas para o movimento
 	var _key_w = keyboard_check(ord("W"))
@@ -46,6 +46,7 @@ player_movement = function(_player_vel){
 	}
 }
 
+/// @method Definindo com o tiro deve se comportar, recebe algum valor para definir a velocidade do tiro
 shooting = function(_vel_shoot){
 	// Pegando a direçao do player em relação ao mouse e fazendo ele olhar
 	var _direction = point_direction(x,y,mouse_x, mouse_y)
@@ -69,13 +70,13 @@ shooting = function(_vel_shoot){
 		sprite_index = spr_player_shoot
 		
 		// Criando o tiro que vai na direçãod o mouse
-		var _shoot = instance_create_layer(x,y,layer,obj_tiro)
+		var _shoot = instance_create_layer(x,y,layer,obj_shot)
 		_shoot.speed = _vel_shoot
 		_shoot.direction = point_direction(x,y, mouse_x, mouse_y)
 		
 		// Definindo efeito do tiro
-		_shoot.shoot_shine_alpha = 0.7
-		_shoot.shoot_shine_color = c_yellow
+		_shoot.shot_shine_alpha = 0.9
+		_shoot.shot_shine_color = c_yellow
 		
 		// Utilizando nosso contador para limitar os tiros
 		shoot_timer_counter = shoot_timer

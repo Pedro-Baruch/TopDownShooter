@@ -20,4 +20,9 @@
 	1.4 Fazendo efeito de tamanho no tiro, nasce grande e diminui rapidamente - ✅
 	1.5 Fazendo se destruir 6 segundos após ser criado - ✅
 	
-
+3 - Criando o inimigo pequeno
+	3.1 Importando sprite - ✅
+	3.2 Criando objeto - ✅
+	3.3 Definindo comportamento inicial do inimigo - ✅
+		3.1 Nasce com uma velocidade aleatória - ✅ 
+		3.2 Deve olhar para a direça que se movimenta - ✅
