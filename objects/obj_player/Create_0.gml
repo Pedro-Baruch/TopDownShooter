@@ -8,8 +8,8 @@ player_vel = 5
 shoot_vel = 20
 
 // Criando um timer para o tiro
-shoot_timer_counter = 0
-shoot_timer = 60 
+player_shoot_timer_counter = 0
+player_shoot_timer = 60 
 
 // Criando método para movimentação
 /// @method Definindo movimentação do player, recebe algum valor que define a velocidade do player
@@ -53,19 +53,19 @@ shooting = function(_vel_shoot){
 	image_angle = _direction
 	
 	// Rodando contador para pode atirar novamente
-	if(shoot_timer_counter >= 0){
-		shoot_timer_counter --
+	if(player_shoot_timer_counter >= 0){
+		player_shoot_timer_counter --
 	}
 
 	// Fazendo a animação mudar antes de poder atirar novamente
-	if(shoot_timer_counter == shoot_timer/2){
+	if(player_shoot_timer_counter == player_shoot_timer/2){
 		sprite_index = spr_player
 	}
 	
 	// Verificando se o player apertou o botão esquerdo do mouse
 	var _key_mbleft = mouse_check_button(mb_left)
 	
-	if(_key_mbleft && shoot_timer_counter <= 0){
+	if(_key_mbleft && player_shoot_timer_counter <= 0){
 		// Caso atire troca para a sprite de tiro
 		sprite_index = spr_player_shoot
 		
@@ -79,7 +79,7 @@ shooting = function(_vel_shoot){
 		_shoot.shot_shine_color = c_yellow
 		
 		// Utilizando nosso contador para limitar os tiros
-		shoot_timer_counter = shoot_timer
+		player_shoot_timer_counter = player_shoot_timer
 	}
 }
 

@@ -26,3 +26,4 @@
 	3.3 Definindo comportamento inicial do inimigo - ✅
 		3.1 Nasce com uma velocidade aleatória - ✅ 
 		3.2 Deve olhar para a direça que se movimenta - ✅
+		3.3 Inimigo muda de direção aleatóriamente a cada 6 segundos - ✅
