@@ -15,11 +15,11 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
+    {"name":"shoot","order":3,"path":"folders/Sprites/shoot.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_tiro","order":1,"path":"objects/obj_tiro/obj_tiro.yy",},
+    {"name":"spr_shoot_effect","order":1,"path":"sprites/spr_shoot_effect/spr_shoot_effect.yy",},
     {"name":"spr_player_shoot","order":1,"path":"sprites/spr_player_shoot/spr_player_shoot.yy",},
-    {"name":"spr_shoot","order":2,"path":"sprites/spr_shoot/spr_shoot.yy",},
   ],
 }

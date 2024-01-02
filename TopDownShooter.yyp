@@ -27,6 +27,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"player","folderPath":"folders/Sprites/player.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"shoot","folderPath":"folders/Sprites/shoot.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -36,6 +37,7 @@
   },
   "resources": [
     {"id":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},},
+    {"id":{"name":"spr_shoot_effect","path":"sprites/spr_shoot_effect/spr_shoot_effect.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"Anotacoes","path":"notes/Anotacoes/Anotacoes.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

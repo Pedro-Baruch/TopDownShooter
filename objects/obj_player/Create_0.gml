@@ -63,6 +63,10 @@ shooting = function(_vel_shoot){
 		_shoot.speed = _vel_shoot
 		_shoot.direction = point_direction(x,y, mouse_x, mouse_y)
 		
+		// Definindo efeito do tiro
+		_shoot.shoot_shine_alpha = 0.7
+		_shoot.shoot_shine_color = c_yellow
+		
 		// Utilizando nosso contador para limitar os tiros
 		shoot_timer_counter = shoot_timer
 	}

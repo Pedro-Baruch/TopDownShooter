@@ -15,4 +15,10 @@
 2 - Criando o tiro
 	1.1 Importando sprite - ✅
 	1.2 Criando objeto - ✅
+	1.3 Fazendo efeito de brilho no tiro - ✅
+		1.3.1 Importando um sprite - ✅
+		1.3.2 Fazendo um evento draw que cria o efeito - ✅
+	1.4 Fazendo efeito de tamanho no tiro, nasce grande e diminui rapidamente - ✅
+	1.5 Fazendo se destruir 6 segundos após ser criado - ✅
+	
 
