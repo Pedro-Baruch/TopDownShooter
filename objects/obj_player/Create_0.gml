@@ -51,6 +51,16 @@ shooting = function(_vel_shoot){
 	var _direction = point_direction(x,y,mouse_x, mouse_y)
 	image_angle = _direction
 	
+	// Rodando contador para pode atirar novamente
+	if(shoot_timer_counter >= 0){
+		shoot_timer_counter --
+	}
+
+	// Fazendo a animação mudar antes de poder atirar novamente
+	if(shoot_timer_counter == shoot_timer/2){
+		sprite_index = spr_player
+	}
+	
 	// Verificando se o player apertou o botão esquerdo do mouse
 	var _key_mbleft = mouse_check_button(mb_left)
 	
