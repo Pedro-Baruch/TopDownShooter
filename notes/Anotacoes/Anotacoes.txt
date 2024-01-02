@@ -4,3 +4,15 @@
 	1.3 Fazendo movimentação do player  - ✅ 
 	1.4 Ajustando a animação do player  - ✅ 
 	1.5 Fazendo ele se mover a mesma vel em todas as direções  - ✅
+	1.6 Fazendo player atirar - ✅ 
+		1.6.1 Trocando a sprite quando o player atira - ✅ 
+		1.6.2 Criando o tiro quando o player clicar com mb_left - ✅
+		1.6.3 Fazendo o tiro sair na direção do mouse quando o tiro doi criado - ✅
+		1.6.4 Fazer o tiro só poder ser criado de tempos em tempos - ✅
+		1.6.5 Fazer a animação de tiro acabar na metade do cooldown do tiro - ✅
+		
+	
+2 - Criando o tiro
+	1.1 Importando sprite - ✅
+	1.2 Criando objeto - ✅
+
