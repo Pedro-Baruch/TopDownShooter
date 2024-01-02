@@ -13,6 +13,7 @@ image_yscale = image_xscale
 shot_destroy_timer_counter = 60 * 6
 
 // Métodos
+/// @method Faz um brilho para o tiro, as variaveis de cor e intensidade podem ser definidas dentro do objeto
 shot_shine_effect = function(){	
 	// Me desenhando
 	draw_self()
@@ -25,12 +26,14 @@ shot_shine_effect = function(){
 	gpu_set_blendmode(bm_normal)
 }
 
+/// @method Faz o tiro diminuir de tamanho gradualmente
 shot_size_effect = function(){
 	// Fazendo tiro diminuir com o tempo
 	image_xscale = lerp(image_xscale,1,0.3)
 	image_yscale = image_xscale
 }
 
+/// @method Timer para o tiro se destruir depois de 6 segundos sem acertar nada
 shot_destroy_timer = function(){
 	if(shot_destroy_timer_counter > 0){
 		shot_destroy_timer_counter --
@@ -39,8 +42,15 @@ shot_destroy_timer = function(){
 	}
 }
 
-
-
+/// @method Dar dano no inimigo little
+shot_damage_enemy_little = function(_damage){
+	var _enemy = instance_place(x,y, obj_enemy_little)
+	
+	if(_enemy){
+		_enemy.enemy_damage()
+		instance_destroy()
+	}
+}
 
 
 

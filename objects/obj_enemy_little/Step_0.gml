@@ -7,6 +7,9 @@ enemy_prevent_outside()
 // Fazendo o inimigo mudar de direção a cada 6 segundos
 enemy_change_direction()
 
+//
+enemy_region_seek()
+
 
 
 

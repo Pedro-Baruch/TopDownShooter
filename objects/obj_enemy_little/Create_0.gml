@@ -5,6 +5,12 @@
 enemy_direction_timer = 60 * 6
 enemy_direction_counter = enemy_direction_timer
 
+// Criando a distancia minima para o inimigo te ver e perseguir
+minimal_distance = 200
+
+// Vida do inimigo
+enemy_life = 3
+
 // Métodos
 /// @method Define movimento dos inimigos pequenos
 enemy_movement = function(){
@@ -41,6 +47,32 @@ enemy_change_direction = function(){
 		enemy_look(irandom_range(0,360))
 		// Resetando o timer
 		enemy_direction_counter = enemy_direction_timer
+	}
+}
+
+/// @method Faz o inimigo seguir o player quando ele chegar muito perto
+enemy_region_seek = function(){
+	if(instance_exists(obj_player)){
+		var _distance = point_distance(x,y,obj_player.x, obj_player.y)
+		
+		if(_distance <= minimal_distance){
+			var _direction = point_direction(x,y,obj_player.x, obj_player.y)
+			enemy_look(_direction)
+		}
+	}
+}
+
+/// @method Tira um de vida do inimigo quando chamada e se não tiver vida o inimigo se destroi, Recebe um valor do dano _damage: number
+enemy_damage = function(_damage){
+	// Garantir que se não passar valor pro dano ele vai valer 1
+	if(_damage == undefined){
+		_damage = 1
+	}
+	
+	enemy_life -=_damage
+	
+	if(enemy_life <= 0){
+		instance_destroy()
 	}
 }
 
