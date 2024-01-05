@@ -10,6 +10,10 @@
 		1.6.3 Fazendo o tiro sair na direção do mouse quando o tiro doi criado - ✅
 		1.6.4 Fazer o tiro só poder ser criado de tempos em tempos - ✅
 		1.6.5 Fazer a animação de tiro acabar na metade do cooldown do tiro - ✅
+	1.7 Fazendo sistema de dano no player
+		1.7.1 Quando o player encostar em um inimigo ele toma dano - ✅
+		1.7.2 Após tomar dano ele fica um tempo imortal - ✅
+		1.7.3 Enquanto tiver imortal tem um efeito para indicar que está imortal - ✅
 		
 2 - Criando o tiro
 	2.1 Importando sprite - ✅

@@ -12,6 +12,9 @@ enemy_life = 2
 chunk01 = 0
 chunk02 = 0
 
+// Dano do inimigo
+damage = 1
+
 // Métodos
 /// @method Define movimento dos inimigos pequenos, _velocity01, _velocity02 são os intervalos entre as velocidade que o inimigo pode receber
 enemy_movement = function(_velocity01, _velocity02){
@@ -78,8 +81,6 @@ enemy_explodes_chunk = function(){
 	// Fazendo tremer forte quando o inimigo morrer
 	global.shake = 10
 } 
-
-
 
 
 

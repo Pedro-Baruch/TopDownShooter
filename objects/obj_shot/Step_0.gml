@@ -8,24 +8,4 @@ shot_size_effect()
 shot_destroy_timer()
 
 // Fazendo o tiro dar dano no inimigo
-shot_damage_enemy_little(1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+shot_damage_enemy(1)

@@ -11,6 +11,16 @@ shoot_vel = 20
 player_shoot_timer_counter = 0
 player_shoot_timer = 30 
 
+// Definindo quanto de vida o playe tem
+player_life = 5
+
+// Definindo tempo de imunidade do player
+player_immunity_timer = 60 * 3
+player_immunity_counter = 0
+
+// Definindo alpha da imagem para ter efeito de piscar 
+player_alpha_value = 0.05
+
 // Criando método para movimentação
 /// @method Definindo movimentação do player, recebe algum valor que define a velocidade do player
 player_movement = function(_player_vel){	
@@ -47,7 +57,7 @@ player_movement = function(_player_vel){
 }
 
 /// @method Definindo com o tiro deve se comportar, recebe algum valor para definir a velocidade do tiro
-shooting = function(_vel_shoot){
+player_shooting = function(_vel_shoot){
 	// Pegando a direçao do player em relação ao mouse e fazendo ele olhar
 	var _direction = point_direction(x,y,mouse_x, mouse_y)
 	image_angle = _direction
@@ -83,7 +93,36 @@ shooting = function(_vel_shoot){
 	}
 }
 
+/// @method Verifica se tem algum inimigo colidindo com o player e se tiver o playe recebe dano
+player_damage = function(){
+	var _enemy = instance_place(x,y,obj_enemy_father)
+	
+	player_blink_effect()
+	
+	if(_enemy && player_immunity_counter <= 0){
+		player_life -= _enemy.damage
+		
+		// Resetando contador
+		player_immunity_counter = player_immunity_timer
+	
+		
+		if(player_life <= 0){
+			instance_destroy()
+		}
+	}
+	
+	show_debug_message(player_life)
+}
 
+// @method Fazer efeito de piscar após player tomar dano e continuar durante o tempo de invencibilidade
+player_blink_effect = function(){
+	if(player_immunity_counter > 0){
+		image_alpha += player_alpha_value
+		if( image_alpha >= 1 || image_alpha <= 0) player_alpha_value *= -1
+	}else if(player_immunity_counter <= 0){
+		image_alpha = 1
+	}
+}
 
 
 

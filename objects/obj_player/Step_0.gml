@@ -5,9 +5,11 @@
 player_movement(player_vel)
 
 // Fazendo o player atirar
-shooting(shoot_vel)
+player_shooting(shoot_vel)
 
+player_damage()
 
+player_immunity_counter--
 
 
 
