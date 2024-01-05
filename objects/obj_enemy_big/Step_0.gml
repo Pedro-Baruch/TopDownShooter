@@ -5,24 +5,4 @@ enemy_change_direction()
 
 enemy_prevent_outside()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+enemy_lay_eggs()

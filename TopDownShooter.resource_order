@@ -23,8 +23,10 @@
   "ResourceOrderSettings": [
     {"name":"spr_enemy_big","order":3,"path":"sprites/spr_enemy_big/spr_enemy_big.yy",},
     {"name":"spr_enemy_chunk","order":1,"path":"sprites/spr_enemy_chunk/spr_enemy_chunk.yy",},
+    {"name":"obj_enemy_egg","order":5,"path":"objects/obj_enemy_egg/obj_enemy_egg.yy",},
     {"name":"obj_enemy_chunk","order":1,"path":"objects/obj_enemy_chunk/obj_enemy_chunk.yy",},
     {"name":"obj_enemy_father","order":4,"path":"objects/obj_enemy_father/obj_enemy_father.yy",},
+    {"name":"spr_enemy_egg","order":4,"path":"sprites/spr_enemy_egg/spr_enemy_egg.yy",},
     {"name":"spr_shot_effect","order":1,"path":"sprites/spr_shot_effect/spr_shot_effect.yy",},
     {"name":"spr_shot_explosion","order":2,"path":"sprites/spr_shot_explosion/spr_shot_explosion.yy",},
     {"name":"obj_enemy_trace","order":2,"path":"objects/obj_enemy_trace/obj_enemy_trace.yy",},

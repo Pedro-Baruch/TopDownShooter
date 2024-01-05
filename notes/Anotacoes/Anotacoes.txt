@@ -46,8 +46,14 @@
 		5.3.2 Não conseguir sair da room - ✅
 		5.3.3 Olhar para o lado que está indo - ✅
 		5.3.4 Mudar de direção de tempos em tempos - ✅
+	5.4 Fazendo ele colocar ovos de tempos em tempos - ✅
 
 6 - Refatorando
 	6.1 Criando um inimigo para ser pai de todos os outro inimigos - ✅
 	6.2 Adaptando os inimigos para herdarem as funções do pai - ✅
 	6.3 Adicionando comentários e métodos ao objeto obj_enemy_trace - ✅
+
+7 - Criando objeto ovo
+	7.1 Importando sprite - ✅
+	7.2 Criando objeto - ✅
+	7.3 Quando a animação do ovo chegar ao fim ele troca a instania para o inimigo pequeno - ✅

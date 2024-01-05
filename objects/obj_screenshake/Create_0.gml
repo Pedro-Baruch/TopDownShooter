@@ -13,8 +13,6 @@ screenshake_call = function(){
 		
 		if(global.shake <= 0.1) global.shake = 0
 	}
-	
-	show_debug_message("Rodei")
 }
 
 
