@@ -7,7 +7,7 @@ enemy_prevent_outside()
 // Fazendo o inimigo mudar de direção a cada 6 segundos
 enemy_change_direction()
 
-//
+// Fazendo o inimigo perseguir o player que entrar no seu campo de rastreio
 enemy_region_seek()
 
 

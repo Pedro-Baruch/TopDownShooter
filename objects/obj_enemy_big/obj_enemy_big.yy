@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy_little",
+  "name": "obj_enemy_big",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy_little",
-    "path": "sprites/spr_enemy_little/spr_enemy_little.yy",
+    "name": "spr_enemy_big",
+    "path": "sprites/spr_enemy_big/spr_enemy_big.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -19,7 +19,7 @@
 		2.3.2 Fazendo um evento draw que cria o efeito - ✅
 	2.4 Fazendo efeito de tamanho no tiro, nasce grande e diminui rapidamente - ✅
 	2.5 Fazendo se destruir 6 segundos após ser criado - ✅
-	2.6 Fazendo efeito de explosão do tiro quando ele acertar algo 
+	2.6 Fazendo efeito de explosão do tiro quando ele acertar algo - ✅
 	
 3 - Criando o inimigo pequeno
 	3.1 Importando sprite - ✅
@@ -30,12 +30,24 @@
 		3.3 Inimigo muda de direção aleatóriamente a cada 6 segundos - ✅
 		3.4 Fazer o inimigo seguir o player se ele chegar perto - ✅
 	3.4 Poder matar o inimigo - ✅
-	3.5 Fazer efeito de detroços do inimigo quando ele for destruido - ✅ .
-	3.6 Fazer o rastro do inimigo ao ser morto - ✅ .
+	3.5 Fazer efeito de detroços do inimigo quando ele for destruido - ✅
+	3.6 Fazer o rastro do inimigo ao ser morto - ✅
 	
 4 - Criando o screenshake
-	4.1 Fazer o objeto - ✅ .
-	4.2 Fazendo ele ser permanente na room - ✅ .
-	4.3 Só ativar quando algum objeto altear o valor global.shake - ✅ .
+	4.1 Fazer o objeto - ✅
+	4.2 Fazendo ele ser permanente na room - ✅
+	4.3 Só ativar quando algum objeto altear o valor global.shake - ✅
 
 5 - Criando inimigo grande
+	5.1 Importando sprite - ✅
+	5.2 Criando o objeto - ✅
+	5.3 Definindo comportamento
+		5.3.1 Fazer andar pra uma direção aleatória ao nascer - ✅
+		5.3.2 Não conseguir sair da room - ✅
+		5.3.3 Olhar para o lado que está indo - ✅
+		5.3.4 Mudar de direção de tempos em tempos - ✅
+
+6 - Refatorando
+	6.1 Criando um inimigo para ser pai de todos os outro inimigos - ✅
+	6.2 Adaptando os inimigos para herdarem as funções do pai - ✅
+	6.3 Adicionando comentários e métodos ao objeto obj_enemy_trace - ✅

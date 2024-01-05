@@ -3,6 +3,7 @@
 
 global.shake = 0
 
+/// @method Função para fazer o efeito de tremer a tela quando a variavel global.shake for maior que 0
 screenshake_call = function(){
 	view_xport[0] = random_range(-global.shake,global.shake)
 	view_yport[0] = random_range(-global.shake,global.shake)

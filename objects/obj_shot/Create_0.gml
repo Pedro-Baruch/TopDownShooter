@@ -45,7 +45,7 @@ shot_destroy_timer = function(){
 /// @method Dar dano no inimigo little
 shot_damage_enemy_little = function(_damage){
 	// Veririficando colisão com o inimigo
-	var _enemy = instance_place(x,y, obj_enemy_little)
+	var _enemy = instance_place(x,y, obj_enemy_father)
 	
 	if(_enemy){
 		_enemy.enemy_damage()
