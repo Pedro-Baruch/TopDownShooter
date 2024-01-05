@@ -9,7 +9,7 @@ shoot_vel = 20
 
 // Criando um timer para o tiro
 player_shoot_timer_counter = 0
-player_shoot_timer = 60 
+player_shoot_timer = 30 
 
 // Criando método para movimentação
 /// @method Definindo movimentação do player, recebe algum valor que define a velocidade do player

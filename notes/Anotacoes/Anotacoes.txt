@@ -12,13 +12,14 @@
 		1.6.5 Fazer a animação de tiro acabar na metade do cooldown do tiro - ✅
 		
 2 - Criando o tiro
-	1.1 Importando sprite - ✅
-	1.2 Criando objeto - ✅
-	1.3 Fazendo efeito de brilho no tiro - ✅
-		1.3.1 Importando um sprite - ✅
-		1.3.2 Fazendo um evento draw que cria o efeito - ✅
-	1.4 Fazendo efeito de tamanho no tiro, nasce grande e diminui rapidamente - ✅
-	1.5 Fazendo se destruir 6 segundos após ser criado - ✅
+	2.1 Importando sprite - ✅
+	2.2 Criando objeto - ✅
+	2.3 Fazendo efeito de brilho no tiro - ✅
+		2.3.1 Importando um sprite - ✅
+		2.3.2 Fazendo um evento draw que cria o efeito - ✅
+	2.4 Fazendo efeito de tamanho no tiro, nasce grande e diminui rapidamente - ✅
+	2.5 Fazendo se destruir 6 segundos após ser criado - ✅
+	2.6 Fazendo efeito de explosão do tiro quando ele acertar algo 
 	
 3 - Criando o inimigo pequeno
 	3.1 Importando sprite - ✅
@@ -29,3 +30,12 @@
 		3.3 Inimigo muda de direção aleatóriamente a cada 6 segundos - ✅
 		3.4 Fazer o inimigo seguir o player se ele chegar perto - ✅
 	3.4 Poder matar o inimigo - ✅
+	3.5 Fazer efeito de detroços do inimigo quando ele for destruido - ✅ .
+	3.6 Fazer o rastro do inimigo ao ser morto - ✅ .
+	
+4 - Criando o screenshake
+	4.1 Fazer o objeto - ✅ .
+	4.2 Fazendo ele ser permanente na room - ✅ .
+	4.3 Só ativar quando algum objeto altear o valor global.shake - ✅ .
+
+5 - Criando inimigo grande

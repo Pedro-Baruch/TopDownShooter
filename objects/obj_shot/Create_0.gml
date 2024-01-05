@@ -44,11 +44,14 @@ shot_destroy_timer = function(){
 
 /// @method Dar dano no inimigo little
 shot_damage_enemy_little = function(_damage){
+	// Veririficando colisão com o inimigo
 	var _enemy = instance_place(x,y, obj_enemy_little)
 	
 	if(_enemy){
 		_enemy.enemy_damage()
 		instance_destroy()
+		
+		instance_create_layer(x,y,layer,obj_shot_explosion)
 	}
 }
 

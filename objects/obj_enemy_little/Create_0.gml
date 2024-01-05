@@ -9,7 +9,7 @@ enemy_direction_counter = enemy_direction_timer
 minimal_distance = 200
 
 // Vida do inimigo
-enemy_life = 3
+enemy_life = 2
 
 // Métodos
 /// @method Define movimento dos inimigos pequenos
@@ -74,8 +74,23 @@ enemy_damage = function(_damage){
 	if(enemy_life <= 0){
 		instance_destroy()
 	}
+	
+	// Fazendo tremer fraco quando tomar tiro
+	global.shake = 2
 }
 
+// Fazer o inimigo explodir em varios pedaços ao morrer
+enemy_explodes_chunk = function(){
+	var _repeater = irandom_range(3,5)
+	repeat(_repeater){
+		var _chunk = instance_create_layer(x,y,layer,obj_enemy_chunk)
+		
+		
+	}
+	
+	// Fazendo tremer forte quando o inimigo morrer
+	global.shake = 10
+}
 // Chamando método
 enemy_movement()
 

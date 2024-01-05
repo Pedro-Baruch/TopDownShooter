@@ -1,17 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shot",
+  "name": "obj_enemy_chunk",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "shot",
-    "path": "folders/Objects/shot.yy",
+    "name": "enemy",
+    "path": "folders/Objects/enemy.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -30,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shot",
-    "path": "sprites/spr_shot/spr_shot.yy",
+    "name": "spr_enemy_chunk",
+    "path": "sprites/spr_enemy_chunk/spr_enemy_chunk.yy",
   },
   "spriteMaskId": null,
   "visible": true,
