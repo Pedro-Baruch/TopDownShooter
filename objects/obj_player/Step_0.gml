@@ -10,13 +10,3 @@ player_shooting(shoot_vel)
 player_damage()
 
 player_immunity_counter--
-
-
-
-
-
-
-
-
-
-

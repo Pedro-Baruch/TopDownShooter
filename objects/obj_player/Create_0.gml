@@ -11,12 +11,9 @@ shoot_vel = 20
 player_shoot_timer_counter = 0
 player_shoot_timer = 30 
 
-// Definindo quanto de vida o playe tem
-player_life = 5
-
 // Definindo tempo de imunidade do player
 player_immunity_timer = 60 * 3
-player_immunity_counter = 0
+player_immunity_counter = 1
 
 // Definindo alpha da imagem para ter efeito de piscar 
 player_alpha_value = 0.05
@@ -100,18 +97,18 @@ player_damage = function(){
 	player_blink_effect()
 	
 	if(_enemy && player_immunity_counter <= 0){
-		player_life -= _enemy.damage
+		global.player_life -= _enemy.damage
 		
 		// Resetando contador
 		player_immunity_counter = player_immunity_timer
 	
 		
-		if(player_life <= 0){
+		if(global.player_life <= 0){
 			instance_destroy()
+			
+			room_restart()
 		}
 	}
-	
-	show_debug_message(player_life)
 }
 
 // @method Fazer efeito de piscar após player tomar dano e continuar durante o tempo de invencibilidade
@@ -124,7 +121,11 @@ player_blink_effect = function(){
 	}
 }
 
-
+// Aumentar pontos do player
+player_gain_points = function(_points){
+	global.player_points += _points
+	show_debug_message(global.player_points)
+}
 
 
 

@@ -5,11 +5,11 @@
 event_inherited();
 
 // Intervalo velocidade
-velocity01 = 3
-velocity02 = 5
+velocity01 = 2
+velocity02 = 4
 
 // Vida do inimigo
-enemy_life = 2
+enemy_life = 1
 
 // Criando a distancia minima para o inimigo te ver e perseguir
 minimal_distance = 200

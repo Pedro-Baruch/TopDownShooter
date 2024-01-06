@@ -61,3 +61,11 @@
 	7.1 Importando sprite - ✅
 	7.2 Criando objeto - ✅
 	7.3 Quando a animação do ovo chegar ao fim ele troca a instania para o inimigo pequeno - ✅
+
+8 - Criando o objeto controller
+	8.1 Fazer criar o player - ✅
+	8.2 Fazer criar o screeshake - ✅
+	8.3 Criar inimigos de tempos em tempos - ✅
+	8.4 Sistema de level e pontuação do player - ✅
+	8.5 Mudar background quando mudar de nivel - ✅
+	8.6 Fazer aumentar dificuldade conforme aumenta de level - ✅
