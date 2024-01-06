@@ -68,4 +68,5 @@
 	8.3 Criar inimigos de tempos em tempos - ✅
 	8.4 Sistema de level e pontuação do player - ✅
 	8.5 Mudar background quando mudar de nivel - ✅
-	8.6 Fazer aumentar dificuldade conforme aumenta de level - ✅
+	8.6 Fazer aumentar dificuldade conforme aumenta de level - ✅ 
+	8.7 Fazendo uma seta que aponta para o inimigo grande mais proximo do player - ✅
